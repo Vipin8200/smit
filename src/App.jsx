@@ -24,6 +24,7 @@ const VALID_ROUTES = [
 // Route validator component
 function RouteValidator({ children }) {
   const location = useLocation();
+  // eslint-disable-next-line no-unused-vars
   const [isValidRoute, setIsValidRoute] = useState(true);
 
   useEffect(() => {
