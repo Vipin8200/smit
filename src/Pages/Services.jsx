@@ -14,10 +14,12 @@ import {
   Star,
   Zap
 } from "lucide-react";
+import { useNavigate } from 'react-router-dom';
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [showModal, setShowModal] = useState(false);
+    const navigate = useNavigate();
 
   const services = [
     {
@@ -140,9 +142,8 @@ const Services = () => {
     document.body.style.overflow = 'unset';
   };
 
-  const navigateToDetails = () => {
-    // In a real app, you would use React Router
-    window.location.href = `/contact`;
+    const navigateToDetails = () => {
+    navigate('/contact');
   };
 
   return (
@@ -897,7 +898,7 @@ const Services = () => {
                 </div> */}
 
                 <div className="modal-actions">
-                  <button  className="btn-details" onClick={() => navigateToDetails(selectedService.id)}>
+                  <button  className="btn-details" onClick={navigateToDetails}>
                       Get Quote <ArrowRight className="h-4 w-4" />
                   </button>
                   {/* <a href="/contact" className="btn-contact">

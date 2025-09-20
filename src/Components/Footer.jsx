@@ -78,7 +78,7 @@ const Footer = () => {
               {/* <p>A108 Adam Street</p>
               <p>New York, NY 535022</p> */}
               <p className="mt-3"><strong>Phone:</strong> <span>+91 72270 95393</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p><strong>Email:</strong> <span>info@karmelinfotech.com</span></p>
             </div>
           </div>
 
@@ -109,10 +109,10 @@ const Footer = () => {
 
           <div className="col-lg-4 col-md-12">
             <h4>Follow Us</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>Follow us on social media for latest updates and news!</p>
             <div className="social-links d-flex">
-              <a href="#" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
-              <a href="#" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/karmelinfotechllp/?hl=en" target='_blank' rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/karmel-infotech-and-software-solution-llp/"target='_blank' rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
